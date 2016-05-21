@@ -1,0 +1,48 @@
+/*=============Global Styles ==============*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	padding: 0; 
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #838994;
+	letter-spacing: 0.03em;
+	}
+
+a:hover {color: #000;}
+
+a:active,
+.active {color: #4c5058;
+		font-weight: bold;}
+
+
+li {display: inline-block;}
+
+/*====================NAV BAR ==========================*/
+.top-nav {
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid #ddd;
+}
+.logo {height: 40px; margin-top: 15px; margin-left: 20px;}
+.nav-links {float: right;}
+.nav-links li {padding-right: 20px; line-height: 50px; font-size: 16px;}
+.nav-contents {max-width: 60%; height: 4.75rem; margin-left: auto; margin-right: auto;}
+
+#hero {
+	background-image: url('../img/first-backround.jpg');
+	background-position: center, bottom;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
